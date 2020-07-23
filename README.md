@@ -6,4 +6,8 @@ Small program to fake a shell script as arbitary named process, to control your 
 
 Edit the top of main.go, inlined shell script, then build and rename the binary as you like.
 
-Executing the binary starts the shell script and recognized as the renamed binary name from Discord.
+Executing the binary starts the shell script and is recognized as the binary name from Discord.
+
+## Environment
+
+Tested only on Linux.
